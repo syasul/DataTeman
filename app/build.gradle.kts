@@ -3,8 +3,6 @@ plugins {
     id("org.jetbrains.kotlin.android")
 //    id("kotlin-parcelize")
     id("kotlin-android")
-
-
 }
 
 android {
@@ -41,6 +39,7 @@ android {
     viewBinding {
         enable = true
     }
+
 }
 
 dependencies {
@@ -55,4 +54,6 @@ dependencies {
 
     implementation("androidx.viewpager2:viewpager2:1.0.0")
     implementation("com.google.android.material:material:1.2.0-alpha86")
+
+    implementation("androidx.recyclerview:recyclerview:1.3.2")
 }
